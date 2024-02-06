@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06e0a343-5a8c-4b8b-8f6c-b81178bc7d04" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/external-law-fairs.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/external-law-fairs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
