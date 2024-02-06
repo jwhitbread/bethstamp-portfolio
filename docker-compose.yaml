@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  node-red:
+    image: jwhitbread/bethstamp-portfolio:dev
+    ports:
+      - "3777:80"
