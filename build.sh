@@ -18,7 +18,7 @@ fi
 
 if [ "${envvar,,}" = "dev" ];
 then
-  read -p 'Git commit message?: ' gitcommitvar
+        read -p 'Git commit message?: ' gitcommitvar
 
 	# Checkout dev and push to github
 	git checkout $setgitcommitvar
