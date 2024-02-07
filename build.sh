@@ -2,9 +2,6 @@
 
 # Get environment
 read -p 'Environment? (dev/prod): ' envvar
-read -p 'Git commit message?: ' gitcommitvar
-
-
 
 if [ "${envvar,,}" = "dev" ];
 then
@@ -14,11 +11,15 @@ fi
 
 if [ "${envvar,,}" = "prod" ];
 then
+  git checkout main
+  git pull
 	setenvvar=latest
 fi
 
 if [ "${envvar,,}" = "dev" ];
 then
+  read -p 'Git commit message?: ' gitcommitvar
+
 	# Checkout dev and push to github
 	git checkout $setgitcommitvar
 	git commit -am "$gitcommitvar"
