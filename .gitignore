@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-app/node_modules/
-.idea/
-=======
 app/node_modules/
 
 .idea/*
->>>>>>> f1cfee75bc28d2b18b13092194145e9307c81ad3
